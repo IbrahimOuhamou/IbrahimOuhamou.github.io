@@ -1,0 +1,87 @@
+/*بسم الله الرحمن الرحيم*/
+
+body
+{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.prayer:hover > .prayer_block
+{
+    display: block;
+}
+
+.prayer_button
+{
+    position: absolute;
+
+    width: 15vw;
+    height: 20vh;
+}
+
+.prayer_block
+{
+    width: 85vw;
+    height: 100vh;
+
+
+    position: absolute;
+    top: 0;
+    left: 15vw;
+
+    /*incha2Allah*/
+    /*will be displayed on hover*/
+    display: none;
+}
+
+#prayer_button_subh
+{
+    top: 0;
+    background-color: rgb(0, 200, 200);
+}
+#prayer_block_subh
+{
+    background-color: green;
+}
+
+#prayer_button_duhr
+{
+    top: 20vh;
+    background-color: lightblue;
+}
+#prayer_block_duhr
+{
+    background-color: yellow;
+}
+
+#prayer_button_asr
+{
+    top: 40vh;
+    background-color: orange;
+}
+#prayer_block_asr
+{
+    background-color: orange;
+}
+
+#prayer_button_maghrib
+{
+    top: 60vh;
+    background-color: rgb(100, 0, 0);
+}
+#prayer_block_maghrib
+{
+    background-color: lightblue;
+}
+
+#prayer_button_isha
+{
+    top: 80vh;
+    background-color: rgb(50, 50, 50);
+}
+#prayer_block_isha
+{
+    background-color: grey;
+}
+

@@ -1,0 +1,28 @@
+/*بسم الله الرحمن الرحيم*/
+
+#main_body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    font-size: xx-large;
+    animation-name: main_body;
+    animation-duration: 10s;
+}
+
+@keyframes main_body
+{
+    from
+    {
+        font-size: xx-small;
+    }
+    to
+    {
+        font-size: xx-large;
+    }
+}
+
