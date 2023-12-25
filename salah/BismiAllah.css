@@ -9,11 +9,18 @@ body
 
 .prayer:hover > .prayer_block
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .prayer_button
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
 
     width: 15vw;
