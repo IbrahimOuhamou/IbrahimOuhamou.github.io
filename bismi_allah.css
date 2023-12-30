@@ -1,5 +1,10 @@
 /*بسم الله الرحمن الرحيم*/
 
+body
+{
+    font-family: sans;
+}
+
 #main_body
 {
     width: 100vw;
@@ -25,4 +30,39 @@
         font-size: xx-large;
     }
 }
+
+.link_navigation_button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+
+    height: 7vh;
+    width: 7vh;
+
+    border-radius: 10%;
+
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+}
+.link_navigation_button:hover
+{
+    opacity: 1;
+}
+
+#link_navigation_button_next
+{
+    right: 0;
+}
+#link_navigation_button_previous
+{
+    left: 0;
+}
+
 
