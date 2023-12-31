@@ -2,7 +2,21 @@
 
 body
 {
-    font-family: sans;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgreen;
 }
 
+#zakat_body
+{
+    padding: 5vw;
+}
+
+#zakat_definition
+{
+}
+#zakat_massarif
+{
+}
 
