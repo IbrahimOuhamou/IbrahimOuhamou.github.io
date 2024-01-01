@@ -3,11 +3,21 @@
 body
 {
     font-family: sans;
+    text-align: right;
 
     background-color: whitesmoke;
 }
 
 #shahada_body
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.shahada_shart
+{
+    margin: 5px;
+    background-color: blue;
 }
 
