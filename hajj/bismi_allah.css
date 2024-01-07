@@ -5,4 +5,8 @@ body
     font-family: sans;
 }
 
+form
+{
+    text-align: center;
+}
 
