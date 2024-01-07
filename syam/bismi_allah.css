@@ -5,4 +5,47 @@ body
     font-family: sans;
 }
 
+.clock
+{
+    width: 50em;
+    height: 50em;
+
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+.half_circle
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    height: 25em;
+    width: 50em;
+    border-radius: 50em 50em 0 0;
+    background-color: green;
+
+}
+
+#half_circle1
+{
+    rotate: 0deg;
+}
+#half_circle2
+{
+    rotate: 90deg;
+    top: -25%;
+    left: 25%;
+}
+
+@keyframes rotation
+{
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+
+.half_circle_content
+{
+    width: 50%;
+}
 
